@@ -8,7 +8,11 @@
 
 void mostrar_info_sistema() {
     printf("=== Monitor de Procesos del Sistema ===\n");
+<<<<<<< HEAD
     printf("Versión: 1.1 - Estable\n");
+=======
+    printf("Versión: 2.0 -- Conflictiva --\n");
+>>>>>>> feature-nueva-funcionalidad-conflicto
 
     //Obtener informacion del usuario
     struct passwd *pw = getpwuid(getuid());
